@@ -56,3 +56,18 @@ button{
 #game-screen{
     display: none;
 }
+
+#game-board{
+    display: grid;
+    gap: 0x;
+    background-image: url('Images/pohja.png');
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 50vw;
+    margin: 10px auto;
+    border: 2px solid #333;
+    padding: 0px;
+    background-color: rgba(221,221,221, 0.8)
+
+}
